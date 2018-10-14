@@ -1,0 +1,50 @@
+{
+    "students": [
+    {
+      "id": 1,
+      "name": "s1",
+      "email": "s2@gmail.com",
+      "address": "indranagar",
+      "pm": 1000
+    },
+    {
+      "id": 2,
+      "name": "AbCd",
+      "email": "s2@gmail.com",
+      "address": "Srnagar",
+      "pm": 10000
+    },
+    {
+      "id": 3,
+      "name": "s3",
+      "email": "s3@gmail.com",
+      "address": "kukatpally",
+      "pm": 5000
+    },
+    {
+      "id": 4,
+      "name": "s4",
+      "email": "s4@gmail.com",
+      "address": "panjagutta",
+      "pm": 100
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "userName": "s1",
+      "password": "s1",
+      "email": "s1@gmail.com",
+      "role": "admin",
+	  "dateFormat":"dd/MM/yyyy"
+    },
+    {
+      "id": 2,
+      "userName": "s2",
+      "password": "s2",
+      "email": "s2@gmail.com",
+      "role": "guest",
+	  "dateFormat":"MM/dd/yyyy"
+    }
+  ]
+}
