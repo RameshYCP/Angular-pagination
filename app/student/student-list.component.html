@@ -1,0 +1,18 @@
+Today is {{currentDate|date:dateFormat}} <br>
+
+<table>
+    <tr *ngFor="let student of students|async">
+        <td>{{student.id}}</td>
+        <td>{{student.name|uppercase}}</td>
+        <td>{{student.name|lowercase}}</td>
+        <td>{{student.name}}</td>
+        <td>{{student.email}}</td>
+        <td>{{student.address}}</td>
+        <td>{{student.pm|currency:'INR'}}</td>
+        <td>{{student|json}}</td>
+    </tr>
+</table>
+<button (click)="m1();" [disabled]="start==0"><</button>
+
+<button (click)="m2();" [disabled]="end==students.length">></button>
+
